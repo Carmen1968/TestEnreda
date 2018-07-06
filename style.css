@@ -1,0 +1,119 @@
+
+#main{
+	width:960px;
+	margin:50px auto;
+	font-family:raleway;
+}
+
+.vertical-menu {
+    width: 300px;
+}
+
+.vertical-menu a {
+    background-color: white; 
+    color: black; 
+    display: block;
+    padding: 12px; 
+    text-decoration: none; 
+    text-align: center;
+}
+.vertical-menu i {
+	text-align: center;
+}
+
+.vertical-menu a:hover {
+    background-color: #FFFACD; 
+}
+
+.vertical-menu a.active {
+    background-color: #F4A460;
+}
+
+span{
+	display:inline-block;
+	vertical-align:middle;
+	line-height:normal;
+	color:pink;
+}
+
+a{
+
+	text-decoration:none;
+	color: #F4A460;
+
+}
+
+h2{
+	background-color: white;
+	text-align:center;
+	border-radius: 10px 10px 0 0;
+	margin: -10px -40px;
+	padding: 30px;
+}
+
+#login{
+	width:300px;
+	float: left;
+	border-radius: 10px;
+	font-family:raleway;
+	border: 1px solid black;
+	padding: 10px 40px 25px;
+	margin-top: 70px;
+}
+
+input[type=text],input[type=password]{
+	width:99.5%;
+	padding: 10px;
+	margin-top: 8px;
+	border: 1px solid #000000;
+	padding-left: 5px;
+	font-size: 16px;
+	font-family:raleway;
+}
+
+input[type=submit]{
+	width: 100%;
+	background-color:#F4A460;
+	color: white;
+	border: 1px solid #000000;
+	padding: 10px;
+	font-size:20px;
+	cursor:pointer;
+	border-radius: 5px;
+	margin-bottom: 15px;
+}
+
+#profile{
+	width: 100px;
+	padding:10px;
+	border:2px solid black;
+	font-size:20px;
+	background-color:white;
+}
+
+#logout{
+	float:right;
+	padding:5px;
+	border:solid 1px gray;
+	margin-top: 100px;
+}
+
+i{
+	color: black;
+}
+
+.error_msg{
+	color:#FA8072;
+	font-size: 16px;
+}
+
+.message{
+	position: absolute;
+	font-weight: bold;
+	font-size: 28px;
+	color: #6495ED;
+	left: 262px;
+	width: 500px;
+	text-align: center;
+}
+
